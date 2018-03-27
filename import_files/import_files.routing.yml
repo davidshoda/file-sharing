@@ -1,0 +1,37 @@
+ImportFiles.import_files:
+  path: /import/files
+  defaults:
+    _controller: \Drupal\import_files\Controller\ImportFilesController::import_files
+  requirements:
+    _permission: 'access content'
+
+ImportFiles.importfilestest1:
+  path: /import/files/test1
+  defaults:
+    _controller: \Drupal\import_files\Controller\ImportFilesTest1Controller::test1
+  requirements:
+    _permission: 'access content'
+
+ImportFiles.importfilestest2:
+  path: /import/files/test2
+  defaults:
+    _controller: \Drupal\import_files\Controller\ImportFilesTest2Controller::test2
+  requirements:
+    _permission: 'access content'
+
+ImportFiles.importfilestest3:
+  path: /import/files/test3
+  defaults:
+    _controller: \Drupal\import_files\Controller\ImportFilesTest3Controller::test3
+  requirements:
+    _permission: 'access content'
+
+ImportFiles.importfilestest4:
+  path: /import/files/test4
+  defaults:
+    _controller: \Drupal\import_files\Controller\ImportFilesTest4Controller::test4
+  requirements:
+    _permission: 'access content'
+
+
+

@@ -1,0 +1,6 @@
+name: Import Files
+description: Imports CSV and legacy Fixed Width file data, fields, and types
+core: 8.x
+type: module
+package: Import Files
+
